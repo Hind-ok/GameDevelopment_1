@@ -75,7 +75,13 @@ public class Player : MonoBehaviour
         }
     }
 
-        
+       //seul sauter de joie lors de la collecte de la clé 
+    public void JumpOfJoy()
+    {
+    rb.velocity = new Vector2(rb.velocity.x, jumpingPower * 1.5f); // Un grand saut de joie
+    Debug.Log("Clé collectée ! Le joueur saute de joie !");
+    }
+ 
 
 
     // Update is called once per frame
