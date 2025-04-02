@@ -71,6 +71,7 @@
     <Compile Include="Assets\Checkpoint.cs" />
     <Compile Include="Assets\Scripts\GhostController.cs" />
     <Compile Include="Assets\Scripts\PlayerCollusions.cs" />
+    <Compile Include="Assets\AudioManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
