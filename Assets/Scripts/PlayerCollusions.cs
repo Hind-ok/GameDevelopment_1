@@ -34,6 +34,11 @@ public class PlayerCollusions : MonoBehaviour
             choco += 1;
             Destroy(collision.gameObject);
         }
+        if (collision.CompareTag("ChocoHard"))
+        {
+            choco += 2;
+            Destroy(collision.gameObject);
+        }
         if (collision.CompareTag("EndLevel"))
         {
             if (PlayerPrefs.GetInt("MobDestroyed", 0) == 1)
