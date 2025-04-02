@@ -29,7 +29,7 @@ public class Player : MonoBehaviour
 
         private void FixedUpdate()
         {
-            rb.linearVelocity = new Vector2(horizontal * speed, canClimb ? vertical * speed : rb.velocity.y);
+            rb.linearVelocity = new Vector2(horizontal * speed, canClimb ? vertical * speed : rb.linearVelocity.y);
             //debut update :Animation du personnage
             animator.SetFloat("Speed", Mathf.Abs(horizontal));
             animator.SetBool("IsGrounded", IsGrounded());
@@ -78,7 +78,7 @@ public class Player : MonoBehaviour
        //seul sauter de joie lors de la collecte de la clé 
     public void JumpOfJoy()
     {
-    rb.velocity = new Vector2(rb.velocity.x, jumpingPower * 1.5f); // Un grand saut de joie
+    rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpingPower * 1.5f); // Un grand saut de joie
     Debug.Log("Clé collectée ! Le joueur saute de joie !");
     }
  

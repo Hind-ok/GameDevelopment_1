@@ -79,7 +79,7 @@ public class PlayerCollusions : MonoBehaviour
     public void Die()
     {
         isDead = true;
-        GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+        GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
         GetComponent<Rigidbody2D>().AddForce(Vector3.up * 90);
         GetComponent<Collider2D>().isTrigger = true;
         Invoke("Respawn", 1); // Revient au dernier checkpoint au lieu de Restartlevel()
