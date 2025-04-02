@@ -9,6 +9,8 @@ TagManager:
   - EndLevel
   - Climb
   - Checkpoint
+  - ChocoHard
+  - Audio
   layers:
   - Default
   - TransparentFX
