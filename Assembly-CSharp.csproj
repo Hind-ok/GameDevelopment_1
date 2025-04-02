@@ -68,6 +68,8 @@
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\Monster.cs" />
     <Compile Include="Assets\Scripts\BlocTrap.cs" />
+    <Compile Include="Assets\Checkpoint.cs" />
+    <Compile Include="Assets\Scripts\GhostController.cs" />
     <Compile Include="Assets\Scripts\PlayerCollusions.cs" />
   </ItemGroup>
   <ItemGroup>
