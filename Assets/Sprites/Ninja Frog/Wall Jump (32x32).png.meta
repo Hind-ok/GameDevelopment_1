@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: a3d9d758bd1efaa40a5125d591cbafa3
+guid: 5069f7ec65fe50342baadedc3f780006
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4129724104346442587
-    second: Jump (32x32) 1_0
+      213: 3974224528455760076
+    second: Wall Jump (32x32)_0
+  - first:
+      213: 403085039841989221
+    second: Wall Jump (32x32)_1
+  - first:
+      213: -6018873884784744797
+    second: Wall Jump (32x32)_2
+  - first:
+      213: -674972067355074983
+    second: Wall Jump (32x32)_3
+  - first:
+      213: 4366178942990776957
+    second: Wall Jump (32x32)_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +125,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Jump (32x32) 1_0
+      name: Wall Jump (32x32)_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 0
-        width: 114
-        height: 175
+        x: 3
+        y: 1
+        width: 25
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +140,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5a4ef0caec540b6c0800000000000000
-      internalID: -4129724104346442587
+      spriteID: cc8ff3cf628472730800000000000000
+      internalID: 3974224528455760076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Jump (32x32)_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 1
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5625e0645bb089500800000000000000
+      internalID: 403085039841989221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Jump (32x32)_2
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a6a785571aa87ca0800000000000000
+      internalID: -6018873884784744797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Jump (32x32)_3
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 1
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95e5dfb1b7402a6f0800000000000000
+      internalID: -674972067355074983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Jump (32x32)_4
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7a71ca9d98c79c30800000000000000
+      internalID: 4366178942990776957
       vertices: []
       indices: 
       edges: []
@@ -147,8 +247,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Jump (32x32) 1_0: -4129724104346442587
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
