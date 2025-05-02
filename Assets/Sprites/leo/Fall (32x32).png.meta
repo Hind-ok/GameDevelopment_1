@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a3d9d758bd1efaa40a5125d591cbafa3
+guid: b725202aa28cdb146b23cd6c7f981091
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4129724104346442587
-    second: Jump (32x32) 1_0
+      213: -5508277246314244481
+    second: Fall (32x32) 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Jump (32x32) 1_0
+      name: Fall (32x32) 1_0
       rect:
         serializedVersion: 2
-        x: 7
+        x: 0
         y: 0
-        width: 114
-        height: 175
+        width: 131
+        height: 170
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5a4ef0caec540b6c0800000000000000
-      internalID: -4129724104346442587
+      spriteID: f769211570bae83b0800000000000000
+      internalID: -5508277246314244481
       vertices: []
       indices: 
       edges: []
@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Fall (32x32) 1_0: -5508277246314244481
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
