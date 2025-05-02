@@ -6,7 +6,7 @@ public class PlayerCollusions : MonoBehaviour
     AudioManager audioManager; // Référence à l'AudioManager pour jouer des sons
 
     public int life = 3; // Points de vie du joueur
-    public int choco = 0; // Points de chocolat du joueur
+    // public int choco = 0; // Points de chocolat du joueur
     private bool isDead = false; // Vérifier si le joueur est mort
 
     public float fallThreshold = -4f; // Seuil de chute pour redémarrer au checkpoint
@@ -39,13 +39,15 @@ public class PlayerCollusions : MonoBehaviour
         }
         if (collision.CompareTag("Choco"))
         {
-            choco += 1;
+            // choco += 1;
+            BonusManager.Instance.AddBonus(1);
             Destroy(collision.gameObject);
             audioManager.PlaySFX(audioManager.bonus); // Joue le son de bonus
         }
         if (collision.CompareTag("ChocoHard"))
         {
-            choco += 2;
+            // choco += 2;
+            BonusManager.Instance.AddBonus(2);
             Destroy(collision.gameObject);
             audioManager.PlaySFX(audioManager.bonus); // Joue le son de bonus
         }
