@@ -1,4 +1,4 @@
-## Léo et la Fabrique de Chocolat
+## Wonka’s Trickery Plateforme 2D
 
 ## Description
 Un jeune garçon nommé "Léo" reçoit une lettre mystérieuse de Willy Wonka, l'invitant à une dégustation secrète dans sa Fabrique de Chocolat. Excité, il se rend sur place, mais découvre que l'entrée est piégée ! Pour rejoindre Willy Wonka, Léo doit traverser un monde magique rempli de bonbons vivants, de chocolat et de pièges en sucre.
