@@ -16,5 +16,9 @@ Aider Léo à trouver le chemin jusqu'à la salle secrète de Willy Wonka en fra
 - **Moteur de jeu** : Unity
 - **Langage** : C#
 - **IDE** : Visual Studio
-🖼️ Captures d'écran
+
+## 📁 Livrable Drive
+[👉 Accéder au dossier Drive](https://drive.google.com/drive/folders/1FBLCnspH10AqzEURY8xAY6hkgbhVqHDa?usp=drive_link)
+
+## 🖼️ Captures d'écran
 ![Capture d'écran](https://imgur.com/gWKfwof.png)
