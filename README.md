@@ -12,6 +12,7 @@ Aider Léo à trouver le chemin jusqu'à la salle secrète de Willy Wonka en fra
 - Mouvements verticaux (ascenseurs, plateformes mobiles)
 
 ## Technologies
+- **Version unity** : Unity 6 (6000.0.39f1) LTS
 - **Moteur de jeu** : Unity
 - **Langage** : C#
 - **IDE** : Visual Studio
