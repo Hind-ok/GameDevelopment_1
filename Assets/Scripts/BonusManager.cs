@@ -24,4 +24,10 @@ public class BonusManager : MonoBehaviour
         totalBonus += amount;
         Debug.Log("Bonus total: " + totalBonus);
     }
+
+    public int GetBonus()
+{
+    return totalBonus;
+}
+
 }
