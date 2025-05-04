@@ -20,6 +20,8 @@ Aider Léo à trouver le chemin jusqu'à la salle secrète de Willy Wonka en fra
 
 ## 📁 Livrable Drive
 [👉 Accéder au dossier Drive](https://drive.google.com/drive/folders/1FBLCnspH10AqzEURY8xAY6hkgbhVqHDa?usp=drive_link)
+- **Level 1** : (https://github.com/Assia-OMR/Game-grp1.git)
+- **Level 2** : (https://github.com/Hind-ok/GameDevelopment_1.git)
 
 ## 🖼️ Captures d'écran
 ![Capture d'écran](https://imgur.com/gWKfwof.png)
